@@ -58,7 +58,7 @@
     margin-bottom: 20px;
 }
 .good{
-    color: rgb(48, 48, 245);
+    color: rgb(33, 33, 161);
 }
 .design{
     background-color: rgb(242, 242, 250);
@@ -150,13 +150,17 @@ ul li {
     background-image: url(images/gradient1.png),url(images/watch.png);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-    height: 400px;
-    /* width: 100%; */
+    background-size:cover;
+    height: 200px;
+   padding-bottom: 100px;
+   margin-bottom: 100px; 
     border-radius: 5px;
-    margin: 80px 100px 60px 100px;
+    margin-left: 100px;
+    margin-right: 100px; 
 }
 .direction{
-    padding: 80px 300px 0 50px;
+    padding-left: 100px;
+    padding-top: 100px; 
 }
 .mindset{
     color: white;
@@ -221,4 +225,4 @@ ul li {
     background-color: rgb(33, 33, 161);
     margin-top: 20px;
     font-weight: 600;
-}
+} 
